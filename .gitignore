@@ -1,0 +1,17 @@
+node_modules
+.next
+.env*
+!.env.example
+coverage
+eval-results
+*.log
+.data
+.pnpm-store/
+*.tsbuildinfo
+outputs/
+work/
+.agents/
+.codex/
+.handoff-git/
+*.zip
+*.tar.gz

@@ -1,0 +1,30 @@
+{
+  "name": "youjia-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "eval": "tsx scripts/run-evals.ts",
+    "eval:copilot": "tsx scripts/run-copilot-evals.ts"
+  },
+  "dependencies": {
+    "@openai/agents": "latest",
+    "next": "latest",
+    "openai": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "tsx": "latest",
+    "typescript": "^5.9.0",
+    "vitest": "latest"
+  }
+}
